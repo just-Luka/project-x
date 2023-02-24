@@ -1,6 +1,12 @@
 body {
-    margin: 0px 25% 0px;
+    display:flex; 
+    justify-content:center;
+    margin: 0;
     background-color: #ececec;
+}
+
+.container {
+    width: 950px;
 }
 
 .header-block {
@@ -8,7 +14,6 @@ body {
     background-color: rgb(165, 165, 165);
     height: 75px;
     border-bottom: 5px solid rgb(0, 134, 223);
-
 }
 
 section {
@@ -29,10 +34,11 @@ section {
 .section-2 {
     width: 57%;
     height: 700px;
-    /* background-color: rgb(206, 206, 206); */
-    background-color: #ececec;
     box-shadow: 5px 5px 15px #c5c5c5;
     float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .chat-header {
@@ -46,7 +52,6 @@ section {
 .chat-sub-left {
     width: 60%;
     height: 100%;
-    /* background-color: red; */
     float: left;
 }
 
@@ -76,7 +81,6 @@ section {
 .chat-sub-right {
     width: 40%;
     height: 100%;
-    /* background-color: green; */
     float: right;
 }
 
@@ -88,18 +92,18 @@ section {
     margin-right: 15px;
     font-size: 19px;
 }
-/* 
+
 .chat-body {
     width: 100%;
-    height: auto;
-    background-color: yellow;
+    flex-grow: 1;
+    overflow: auto;
 }
 
 .chat-body > p {
     margin: 0px;
     padding: 20px;
     border: 5px solid red;
-} */
+}
 
 .chat-message-left {
     text-align: left;
@@ -107,4 +111,65 @@ section {
 
 .chat-message-right {
     text-align: right;
+}
+
+.chat-footer {
+    width: 100%;
+    min-height: 70px;
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px #c5c5c5;
+
+}
+
+.chat-footer > form > a {
+    margin-left: 24px;
+    margin-top: 13px;
+    position: absolute;
+    color: rgb(0, 134, 223);
+    font-size: 21px;
+}
+
+.chat-footer > form > input {
+    width: 70%;
+    height: 40px;
+    margin-left: 8px;
+    border-radius: 30px;
+    border-color: transparent;
+    text-indent: 40px;
+}
+
+.chat-footer > form > input:focus {
+    outline: none !important;
+}
+
+.chat-option-block {
+    border: none;
+    float: right;
+    margin-right: 12px;
+    padding: 10px;
+    /* background-color: red; */
+}
+
+.chat-option-block > button {
+    border: none;
+    background: none;
+}
+
+.chat-option-block > button:hover {
+    color: rgb(0, 134, 223);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.chat-option-block > button > i {
+    font-size: 21px;
+}
+
+.chat-option-block > a {
+    font-size: 21px;
+    padding: 2px;
 }
