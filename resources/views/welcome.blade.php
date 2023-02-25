@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{ asset('template/styles/main.css') }}">
     @viteReactRefresh
-    @vite('resources/js/app.jsx')
+    @vite('resources/js/app.js')
 </head>
 <body>
     <div class="container">
@@ -36,9 +36,18 @@
                     </div>
                 </div>
                 <div class="chat-body">
-                    <p class="chat-message-left">What's up</p>
-                    <p class="chat-message-right">What's up</p>
-                
+                    <div class="chat-message-clipper chat-first-message">
+                        <p>Guten Tag! Mein Name ist Luka Mein Name ist Luka Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Na Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein Nme ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist LukaMein NamMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaName ist LukaMein Name ist Luka Mein Name ist Lukae ist Luka Mein Name ist Luka</p>
+                    </div>
+                    <div class="chat-message-clipper">
+                        <p>Was machst du hier</p>
+                    </div>
+                    <div class="chat-message-clipper">
+                        <p>ich mache hier nichts ich mache hier nichts ich mache hier nichts ich mache hier nichts</p>
+                    </div>
+                    <div class="chat-message-clipper">
+                        <p>Was machst du hier</p>
+                    </div>
                 </div>
                 <div class="chat-footer">
                     <form action='' method='post'>
@@ -47,8 +56,6 @@
                         <div class="chat-option-block">
                             {{-- <a href=""><i class="fa-solid fa-paper-plane"></i></a> --}}
                             <button><i class="fa-solid fa-paper-plane"></i></button>
-                
-
                         </div>
                     </form>
                 </div>
