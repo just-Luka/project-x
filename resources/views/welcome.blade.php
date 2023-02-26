@@ -36,18 +36,23 @@
                     </div>
                 </div>
                 <div class="chat-body">
-                    <div class="chat-message-clipper chat-first-message">
-                        <p>Guten Tag! Mein Name ist Luka Mein Name ist Luka Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Na Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein Nme ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist LukaMein NamMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaName ist LukaMein Name ist Luka Mein Name ist Lukae ist Luka Mein Name ist Luka</p>
-                    </div>
-                    <div class="chat-message-clipper">
-                        <p>Was machst du hier</p>
-                    </div>
-                    <div class="chat-message-clipper">
-                        <p>ich mache hier nichts ich mache hier nichts ich mache hier nichts ich mache hier nichts</p>
-                    </div>
-                    <div class="chat-message-clipper">
-                        <p>Was machst du hier</p>
-                    </div>
+                    <p class="from-them">Guten Tag! Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Na Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein Nme ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist LukaMein NamMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaName ist LukaMein Name ist Luka Mein Name ist Lukae ist Luka Mein Name ist Luka</p>
+                    <p class="from-me no-tail">Like is this an earthquake just go back to sleep</p>
+                    <p class="from-me no-tail">While in her hospital room, Diego is standing outside looking through the door window and can hear the entire conversation because he has super hearing.</p>
+                    <p class="from-me">While in her hospital room, Diego is standing outside looking through the door window and can hear the entire conversation because he has super hearing.</p>
+
+                    <p class="from-me no-tail emoji">👍🏻</p>
+                    <p class="from-me no-tail">Previously...</p>
+                    <p class="from-me no-tail">Brock went to the hospital to check on Cyntheeah...</p>
+                    <p class="from-me no-tail">Notice the pretentious spelling of &ldquo;Cyntheeah&rdquo;...</p>
+                    <p class="from-me no-tail">While in her hospital room, Diego is standing outside looking through the door window and can hear the entire conversation because he has super hearing.</p>
+                    <p class="from-me">Elsewh..REGINA Caspian!</p>
+
+                    <p class="from-them no-tail">Guten Tag! Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Na Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein N Mein Name ist LukaMein Name ist Luka Mein Name ist Lukka Mein Nme ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist Lukka Mein Name ist LukaMein NamMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Mein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaMein Name ist Luka Mein Name ist LukaName ist LukaMein Name ist Luka Mein Name ist Lukae ist Luka Mein Name ist Luka</p>
+                    <p class="from-them no-tail">Notice the pretentious spelling of &ldquo;Cyntheeah&rdquo;...</p>
+                    
+                    <p class="from-them">Guten Tag! Mein Name ist Luka </p>
+                    <p class="from-me">Like is this an earthquake just go back to sleep</p>
                 </div>
                 <div class="chat-footer">
                     <form action='' method='post'>
