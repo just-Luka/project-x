@@ -26,7 +26,7 @@
                 <div class="chat-header">
                     <div class="chat-sub-left">
                         <div class="chat-avatar"></div>
-                        <p>Name Surename <br><span>Last seen</span></p>
+                        <p>Mona Lisa <br><span>Last seen</span></p>
                         
                     </div>
                     <div class="chat-sub-right">
