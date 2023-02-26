@@ -26,7 +26,7 @@
                 <div class="chat-header">
                     <div class="chat-sub-left">
                         <div class="chat-avatar"></div>
-                        <p>Mona Lisa <br><span>Last seen</span></p>
+                        <p>Mona Lisa <br><span>Last seen 40 minutes ago</span></p>
                         
                     </div>
                     <div class="chat-sub-right">
@@ -36,16 +36,7 @@
                     </div>
                 </div>
                 <div id="chat-body"></div>
-                <div class="chat-footer">
-                    <form action='' method='post'>
-                        <a href=""><i class="fa-solid fa-paperclip"></i></a>
-                        <input type="text" name="message" placeholder="Type...">
-                        <div class="chat-option-block">
-                            {{-- <a href=""><i class="fa-solid fa-paper-plane"></i></a> --}}
-                            <button><i class="fa-solid fa-paper-plane"></i></button>
-                        </div>
-                    </form>
-                </div>
+                <div id="chat-footer"></div>
             </div>
         </section>
     </div>

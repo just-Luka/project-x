@@ -14,3 +14,4 @@ import './bootstrap';
 
 import './components/Example';
 import './chats/ChatBody';
+import './chats/ChatFooter'
