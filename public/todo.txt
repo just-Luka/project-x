@@ -1,0 +1,7 @@
+1.  There is bug with message send button, 
+    it gains colors even when you have typeed empty space or shift
+
+2.  when you focus on input and click enter, text must be send (instead of shifting down)
+
+3.  when text reaches 3rd line it reducing, but then popping up again on 2nd line
+    so, it is getting biggeer again
