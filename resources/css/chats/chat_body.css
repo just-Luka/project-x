@@ -10,15 +10,13 @@
     overflow: auto;
 }
 
-
-
 .chat-body::-webkit-scrollbar {
     width: 10px;
   }
   
   /* customize the scrollbar thumb */
 .chat-body::-webkit-scrollbar-thumb {
-    background-color: #ccc;
+    background-color: rgb(0, 134, 223);
     border-radius: 5px;
 }
   
