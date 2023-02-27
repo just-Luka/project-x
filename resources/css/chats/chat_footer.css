@@ -5,34 +5,68 @@
 .chat-footer {
     width: 100%;
     min-height: 70px;
+    max-height: 114px;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     box-shadow: 0px 0px 10px #c5c5c5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
 
+.chat-footer > form {
+    display: contents;
 }
 
 .chat-footer > form > a {
     margin-left: 24px;
-    margin-top: 13px;
     position: absolute;
     color: #868686;
     font-size: 21px;
 }
 
-.chat-footer > form > input {
-    width: 70%;
-    height: 40px;
+.chat-message-field {
+    width: 68%;
+    max-height: 90px;
     margin-left: 8px;
     border-radius: 30px;
-    border-color: transparent;
-    text-indent: 40px;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    overflow-y: auto;
+    display: block;
+    outline: none !important;
+
+    line-height: 1.5;
 }
 
-.chat-footer > form > input:focus {
-    outline: none !important;
+.chat-footer > form > .small{
+    font-size: 15px;
+}
+
+.chat-message-field:empty:not(:focus):before {
+    content: attr(data-text);
+  }
+
+.chat-message-field::-webkit-scrollbar {
+    width: 5px;
+}
+  
+/* customize the scrollbar thumb */
+.chat-message-field::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+  
+/* customize the scrollbar track */
+.chat-message-field::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
 }
 
 .chat-option-block {
@@ -52,13 +86,6 @@
     cursor: pointer;
     transition: 0.2s;
 }
-
-/* 
-.chat-option-block > button:hover {
-    color: rgb(0, 134, 223);
-    cursor: pointer;
-    transition: 0.2s;
-} */
 
 .chat-option-block > button > i {
     font-size: 21px;
