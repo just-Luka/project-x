@@ -14,17 +14,7 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <ul class="header-block">
-                <li class="nav-block">
-                    <a href=""><i class="fa-solid fa-user"></i></a>
-                </li>
-                <li class="nav-block">
-                    <a href=""><i class="fa-solid fa-comments"></i></a>
-                </li>
-                
-            </ul>
-        </header>
+        @include('layouts.header')
         <section>
             <div class="section-1 section-border">
                 <div class="contact-header">

@@ -1,0 +1,8 @@
+{
+    "Body background color" : "#ececec",
+    "Color plate 1": "#fff",
+    "Color plate 2": "rgb(0, 134, 223)",
+    "Color for Icon": "gray", 
+    "Section border radius": "10px",
+    "Section shadows": "box-shadow: 5px 5px 15px #c5c5c5;"
+}

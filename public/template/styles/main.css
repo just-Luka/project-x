@@ -10,7 +10,6 @@ ul, li {
     margin: 0;
     padding: 0;
     list-style-type: none;
-
 }
 
 .container {
@@ -20,22 +19,32 @@ ul, li {
 .header-block {
     width: 100%;
     height: 75px;
-    border-bottom: 5px solid rgb(0, 134, 223);
     display: flex;
+    margin-top: 5px;
 }
 
 .nav-block {
     width: 100%;
     height: 100%;
-    background-color: #fff;
     font-size: 25px;
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
+    border-radius: 10px;
+}
+
+.nav-block:hover {
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+.nav-block > a {
+    display: block;
 }
 
 .nav-block > a > i{
     margin-top: 27px;
+    margin-bottom: 20px;
     color: gray;
 }
 
@@ -84,10 +93,6 @@ section {
     height: 480px;
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
-    overflow-y: hidden;
-}
-
-.contact-body:hover {
     overflow-y: auto;
 }
 
@@ -99,6 +104,7 @@ section {
 .contact-body::-webkit-scrollbar-thumb {
     background-color: rgb(0, 134, 223);
     border-radius: 5px;
+
 }
   
   /* customize the scrollbar track */
@@ -108,12 +114,9 @@ section {
 }
 
 .contact-card {
-    height: 70px;
+    height: 69px;
     background-color: #fff;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 10px;
     border-radius: 10px;
 }
 
@@ -230,4 +233,149 @@ section {
     font-size: 19px;
     color: #868686;
 
+}
+
+/* Profile */
+
+.profile {
+    width: 99%;
+    height: 350px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.profile-cover {
+    width: 100%;
+    height: 250px;
+    background-color: #f0f2f5;
+    position: absolute;
+    border-top-right-radius: inherit ;
+    border-top-left-radius: inherit ;
+    box-shadow: 5px 5px 15px #c5c5c5;
+
+}
+
+.profile-detail-block{
+    width: 100%;
+    height: 110px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 10px;
+    border-radius: inherit;
+    box-shadow: 5px 5px 15px #c5c5c5;
+}
+
+.profile-detail-info {
+    margin-left: 23%;
+}
+.profile-detail-info > h1 {
+    margin-bottom: 12px;
+}
+
+.profile-detail-info > p {
+    margin: 0;
+    font-size: 15px;
+    color: gray;
+}
+
+.profile-picture {
+    background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    width: 145px;
+    height: 145px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    border: 5px solid #fff;
+}
+
+.profile-picture::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.profile-tabs {
+    width: 99%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.profile-tabs > button {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border: none;
+}
+
+.profile-tabs > button:hover {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.profile-tabs > .active {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.posts {
+    width: 64%;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}
+
+.posts > h2 {
+    padding: 15px;
+    margin-top: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.posts > div {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.info {
+    width: 33%;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fff;
+    float: right;
+    
+}
+
+.info-block {
+    margin: 0px 15px 15px;
+
+}
+
+.info-block > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-list > li {
+    display: flex;
+    line-height: 1.4;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.info-list > li > i{
+    margin-right: 10px;
 }

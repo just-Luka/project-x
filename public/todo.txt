@@ -5,3 +5,6 @@
 
 3.  when text reaches 3rd line it reducing, but then popping up again on 2nd line
     so, it is getting biggeer again
+
+--- before production ---
+change theme colors and make some modifies to make website more unique
