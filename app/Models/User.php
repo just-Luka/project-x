@@ -19,6 +19,8 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'surname',
+        'phone_number',
         'email',
         'password',
     ];
@@ -41,4 +43,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function phoneExists($number): bool
+    {
+        return !is_null($this->where('phone_number', $number)->first());
+    }
 }
