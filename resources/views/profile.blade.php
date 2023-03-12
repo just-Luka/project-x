@@ -34,6 +34,7 @@
             <button>Pictures</button>
         </div> --}}
         <section class="posts">
+            <button>Create</button>
             <h2>Posts</h2>
             <div>
             </div>
