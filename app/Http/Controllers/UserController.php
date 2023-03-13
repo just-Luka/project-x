@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 use App\Models\User;
+use App\Events\PhoneConfirmation;
 
 class UserController extends Controller
 {
@@ -12,18 +13,17 @@ class UserController extends Controller
 
     public function __construct()
     {
-        $this->model = $model;
+        $this->model = new User();
     }
 
     public function registration(Request $request): void
     {
-        // 1
-        $phoneExists = (new User())->phoneExists($request->get('phone_number'));
         
-        // 2
-        if(!$phoneExists){
-
-        }
+        if($this->model->phoneExists($request->get('phone'))) {
+            // In case if phone number is already used
+        };
+        PhoneConfirmation::dispatch($request->get('phone'));
+        // Send Confirmation Number
     }
 
     public function login()
