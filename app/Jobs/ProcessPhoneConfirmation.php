@@ -21,7 +21,7 @@ class ProcessPhoneConfirmation implements ShouldQueue
      */
     public function __construct(string $phone)
     {
-        //
+        $this->phone = $phone;
     }
 
     /**
@@ -29,7 +29,7 @@ class ProcessPhoneConfirmation implements ShouldQueue
      */
     public function handle(): void
     {
-        echo "hello world";
+        echo $this->phone;
         // SEND confirmation number on the phone
     }
 }

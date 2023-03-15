@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +14,10 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::controller(UserController::class)->group(function() {
-    Route::post('/register', 'registration');
+Route::controller(AuthController::class)->group(function() {
+    Route::post('/verify-phone', 'verifyPhone');
 });
+
 Route::get('/profile', function () {
     return view('profile');
 });
